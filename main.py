@@ -23,7 +23,7 @@ def words():
 def split_word(random_word):
     letters = [letters for letters in random_word]
     return letters
-    
+#Game    
 def game(random_word, letters):
     display = '_' * len(random_word)
     print(display)
